@@ -136,7 +136,7 @@ public class Calculator {
                 break;
             case "-":
                 if (a - b < 1 && isRoman) {
-                    throw new IllegalArgumentException("в римской системе счисления нет отрицательных чисе");
+                    throw new IllegalArgumentException("в римской системе счисления нет отрицательных чисел");
                 }
                 result = a - b;
                 break;
